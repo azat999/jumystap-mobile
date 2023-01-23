@@ -1,0 +1,456 @@
+@media only screen and (max-width:1200px){
+
+    
+    p{
+        font-size: 11px;
+        line-height: 18px;
+    }
+    h1 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    nav{
+        margin-left: 35%;
+
+    }
+
+    main .main-description{
+        padding: 99px 0 146px 0;
+    }
+
+    
+
+    main .main-description-img img {
+        margin-right: 34px;
+        width: 559px;
+
+    }
+
+    p{
+        font-size: 11px;
+        line-height: 18px;
+    }
+
+    main .main-description-info p {
+        font-size: 11px;
+        line-height: 18px;
+
+    }
+
+    .work-info {
+        margin-top: 48px;
+    }
+    .work-info-block img {
+        padding-bottom: 26px;
+        width: 44.3px;
+    }
+
+    .started-info p {
+        width: 348px;
+        padding-bottom: 12px;
+    }
+    .search-box2{
+        width:453px
+    }
+
+    .upload-text{
+        margin-left: 54px;
+        margin-top: 85px;
+    }
+
+    .upload-text h1{
+        padding-bottom: 24px;
+
+    }
+
+    .upload-text p{
+        width: 349px;
+        padding-bottom: 24px;
+    }
+
+
+    .upload-img img {
+        width: 462px;
+        height: 345.67px;
+        border-radius: 30px;
+    }
+    
+    .footer{
+        width: 82%;
+    }
+
+    
+    footer{
+        padding: 32px 20px 0 80px;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    
+    header {
+       
+        display: flex;
+    }
+    
+    h1{
+        padding-bottom: 14px;
+    }
+    nav {
+        margin-left: 6%;
+    }
+
+    main .main-description{
+        padding: 26px 0 5px 0;
+    }
+
+
+    .main-description {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .main-description-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0%;
+    }
+   
+    .main-description-img img{
+        width: 687px;
+        height: 458px;
+        
+    }
+
+    .main-description-info h1{
+        margin-top: 24px;
+        padding-bottom: 22px;
+    }
+
+
+    .work{
+        height: 419px;
+    }
+    .work-text{
+        padding-top: 44px;
+    }
+
+    .work-text h1{
+        padding-bottom: 14px;
+    }
+
+    .work-info{
+        margin-left: 42px;
+        margin-right: 31px;
+    }
+
+    .work-info-block h3{
+        font-size: 18px;
+        padding-bottom: 14px;
+    }
+
+    .work-info-block p{
+        font-size: 14px;
+    }
+
+
+    .started{
+        height: 304px;
+    }
+    .started-info{
+        margin-left: 5%;
+        padding-top: 70px;
+    }
+
+    .search-box {
+        margin-left: 5%;
+    }
+
+    .upload{
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    .upload-text{
+        text-align: center;
+        align-items: center;
+        margin-top: 31px;
+    }
+
+    footer{
+        padding: 32px 5% 0 5%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer{
+        display: flex;
+        
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-navbar{
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .footer-info h4{
+        margin-top: 14px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-info p{
+        margin-top: 14px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .topnav a {
+        display: none;
+    }
+    main .main-description {
+        padding: 20px 3px 5px 3px;
+    }
+
+    .main-description-img img {
+        width: 373px;
+        height: 249px;
+    
+    }
+    main .main-description-img img {
+        margin-right: 0;
+        
+    }
+    main .main-description-info {
+        width: 312px;
+    }
+    .main-description-info h1{
+        font-size: 32px;
+        line-height: 120%
+        
+    }
+
+    main .main-description-info p{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        padding-bottom: 48px;
+    }
+
+    .work{
+        height: 100%;
+    }
+
+    .work-text {
+        padding-top: 54px;
+    }
+
+    .work-info{
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+
+    .work-info-block p{
+        font-size: 14px;
+        line-height: 18px;
+        padding-bottom: 40px;
+    }
+
+    .work-info-block h3{
+        font-size: 20px;
+        line-height: 24px;
+        padding-bottom: 12px;
+    }
+
+    .work-info-block img {
+        height: 42px;
+        width: 23.05197525024414px;
+        padding-bottom: 24px;
+
+    }
+
+    .started {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        padding: 54px 24px;
+    }
+
+    .started-info h1{
+        padding-bottom: 32px;
+    } 
+
+    .started-info p {
+        font-size: 14px;
+        line-height: 18px;
+        width: 312px;
+        padding-bottom: 32px;
+    }
+    .search-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .search-box2 {
+        width: 312px;
+    }
+
+    .search-box button {
+         margin-left: 0;
+         margin-top: 32px; 
+    }
+
+    .upload{
+        padding: 64px 24px;
+    }
+
+    .upload-img img {
+        border-radius: 42px;
+        width: 421px;
+        height: 285.67px;
+    }
+
+    .upload-text {
+        margin-top: 116px;
+        
+        align-items: start;
+        text-align: left;
+        
+      
+    }
+
+    .upload{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    .upload-text p {
+        font-size: 14px;
+        line-height: 20px;
+        line-height: 106%;
+        font-family:'Inter';
+        font-style: medium;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer{
+        text-align: left;
+        align-items: flex-start;
+        justify-content: left;
+    }
+
+    .footer-navbar ul {
+        display: table;
+        
+    }
+    .footer-navbar ul li {
+       text-align: left;
+       padding-bottom: 36px;
+        
+    }
+
+    .footer-navbar ul img {
+       display: flex;
+       padding-bottom: 16px;
+     }
+
+     .footer-info h4{
+        text-align: left;
+        font-size: 14px;
+        line-height: 24px;
+        line-height: 142%;
+        margin-left: 48px;
+     }
+     .footer-info p{
+        text-align: left;
+        font-size: 14px;
+        line-height: 24px;
+        line-height: 142%;
+        margin-left: 48px;
+     }
+     .search-box2{
+        width: 241px;
+    }
+    .search-box .btn-violet {
+        width: 103px;
+    }
+
+
+    .upload-img img {
+        border-radius: 42px;
+        width: 341px;
+        height: 285.67px;
+    }
+    
+    .upload-text{
+        padding-left: 34px;
+    }
+}
+
+
+ 
+@media only screen and (max-width:480px){
+  
+
+  nav {
+    width: 100%;
+    margin-left: 103px;
+  }
+
+  main .main-description-img img {
+    width: 314px;
+    
+  }
+
+  .upload-text p {
+    width: 312px;
+ 
+}
+
+.footer-navbar{
+   width: 100%;
+   
+}
+
+.footer-info h4{
+    margin-left: 20px;
+}
+
+.footer-info p{
+    margin-left: 20px;
+}
+} 
+    
+
+  
+
+
