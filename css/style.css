@@ -5,8 +5,12 @@
 
    a{
     text-decoration: none;
+    color: inherit;
    }
 
+.footer-info h4 a {
+    text-decoration: underline;
+}
 
 body{
     background: #F1F1F1;;
