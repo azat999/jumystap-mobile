@@ -55,6 +55,47 @@ header{
    
 }
 
+.mobile-menu{
+    display: none;
+}
+
+.menu-btn{
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: #f1f1f1;
+    border-radius: 50px;
+    position: relative;
+ 
+}
+
+.menu-btn span, .menu-btn span:before, .menu-btn span:after {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: #222;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -10px;
+    margin-top: -1px;
+    transition: all 0.4s;
+}
+
+.menu-btn span:before, .menu-btn span:after{
+    content: '';
+}
+
+.menu-btn span:before{
+    transform: translateY(-5px);
+}
+
+.menu-btn span:after{
+    transform: translateY(5px);
+}
+
+
+
 p{
     font-family: 'Inter';
     font-style: normal;
