@@ -242,7 +242,7 @@
         opacity: 0;
     }
 
-   .topnav.menu-active{
+    .topnav.menu-active{
         transition: all 0.1s linear;
         visibility: visible;
         opacity: 1;
@@ -259,6 +259,7 @@
         display: block;
         text-align: center;
         margin-top: 8%;
+        padding-right: 66px;
     }
     
     
