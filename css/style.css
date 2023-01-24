@@ -5,6 +5,7 @@
 
    a{
     text-decoration: none;
+	   color:inherit;
    }
 
 
@@ -361,7 +362,11 @@ footer{
     color: #081E34;
     opacity: 0.5;
     margin-bottom: 52px;
-     text-align: right;
+    text-align: right;
+}
+
+.footer-info h4 a {
+   text-decoration: underline; 
 }
 
 .footer-info p{
