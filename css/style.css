@@ -288,6 +288,7 @@ main .main-description h1{
     padding-top: 41px;
     display: flex;
     margin-left: 80px;
+    justify-content: space-between;
 }
 
 .upload-img img{
